@@ -987,6 +987,7 @@ app.controller('EventsPopoverEditorController', ['$scope', 'TimezoneService', 'e
 				action: action,
 				event: $scope.event
 			});
+			angular.element('#fullcalendar').addClass('sidebar-open');
 		};
 
 		$scope.delete = function() {
